@@ -79,3 +79,13 @@ export default PageNameHelmet;
 ```
 
 And I'll just plug it into the final page from there.
+
+## Installing (3-16-2025)
+
+The version of React we're using to include Vite doesn't have an optimzied version of **react-helmet-async**, which is fine, but we need to force an install. To install it, enter
+
+```bash
+project-name$ npm install react-helmet-async --legacy-peer-deps
+```
+
+This will no longer be necessary once an updated version of the package comes out.
